@@ -3,10 +3,10 @@
 
 int main(){
     int t, col = 1;
-    scanf("%d", t);
+    scanf("%d", &t);
     while (col <= t){
         long long ans = 0, l, r;
-        scanf("%d %d", l, r);
+        scanf("%lld %lld", &l, &r);
         if (r < l){
             int temp = r;
             r = l;
